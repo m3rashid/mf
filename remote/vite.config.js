@@ -10,7 +10,7 @@ export default defineConfig({
 			name: 'remote',
 			filename: 'remoteEntry.js',
 			exposes: {
-				'./Button': './src/button',
+				'./button': './src/button',
 			},
 			shared: ['react', 'react-dom'],
 		}),
