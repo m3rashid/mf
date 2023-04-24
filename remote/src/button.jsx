@@ -1,8 +1,8 @@
-import { useState } from 'react';
 import "./button.css"
+import useCount from './store';
 
 const Button = () => {
-	const [state, setState] = useState(0);
+	const [state, setState] = useCount();
 
 	return (
 		<div>

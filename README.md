@@ -1,1 +1,3 @@
-### Micro Frontends with Vite + React 
+### Module Federation with Vite + React 
+
+![apps](./apps.png)
